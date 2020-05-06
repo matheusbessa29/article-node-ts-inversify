@@ -2,11 +2,11 @@ import express = require('express');
 import { App } from './app';
 
 const expressApplication: express.Application = express();
-let app: App = new App();
+const app: App = new App();
 
 expressApplication.get('/hello', function(req, res) {
     
-    let message: String = app.helloWorldMessage();
+    const message: string = app.helloWorldMessage();
 
     res.send(message);
 })

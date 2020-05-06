@@ -1,11 +1,11 @@
 export class App {
     constructor() {
-        let message: string = this.helloWorldMessage();
+        const message: string = this.helloWorldMessage();
 
         console.log(message);
     }
 
-    helloWorldMessage() : string {
+    helloWorldMessage(): string {
         return 'Hello World!';
     }
 }
