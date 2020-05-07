@@ -1,3 +1,7 @@
 # 01-typescript-example
 01-typescript-example/dist
 01-typescript-example/node_modules
+
+# 02-inversify-example
+02-inversify-example/dist
+02-inversify-example/node_modules
