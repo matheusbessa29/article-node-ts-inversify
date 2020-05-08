@@ -5,3 +5,7 @@
 # 02-inversify-example
 02-inversify-example/dist
 02-inversify-example/node_modules
+
+# 02-inversify-example
+02-inversify-express-example/dist
+02-inversify-express-example/node_modules
