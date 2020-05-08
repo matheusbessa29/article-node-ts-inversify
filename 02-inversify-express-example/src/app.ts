@@ -9,7 +9,7 @@ import "./controllers/sala.controller"
 
 import { SalaService } from "./services/sala.service";
 
-import { SalaServiceInterface } from "./services/infraestructure/sala.service.interface";
+import { SalaServiceInterface } from "./services/interfaces/sala.service.interface";
 
 let container = new Container();
 

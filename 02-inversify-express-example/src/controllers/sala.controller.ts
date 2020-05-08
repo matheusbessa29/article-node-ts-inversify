@@ -4,7 +4,7 @@ import { httpGet, BaseHttpController, interfaces, controller } from "inversify-e
 
 import TYPES from "../types";
 
-import { SalaServiceInterface } from "../services/infraestructure/sala.service.interface";
+import { SalaServiceInterface } from "../services/interfaces/sala.service.interface";
 
 
 @controller('/sala')
