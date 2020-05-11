@@ -11,7 +11,7 @@ import { SalaService } from "./services/sala.service";
 
 import { SalaServiceInterface } from "./services/interfaces/sala.service.interface";
 
-let container = new Container();
+const container = new Container();
 
 export class App {
 
@@ -25,7 +25,7 @@ export class App {
     }
 
     createServer(): void {
-        let server: InversifyExpressServer = new InversifyExpressServer(container);
+        const server: InversifyExpressServer = new InversifyExpressServer(container);
         server.setConfig((app) => {
         // add body parser
         app.use(bodyParser.urlencoded({
@@ -34,7 +34,7 @@ export class App {
         app.use(bodyParser.json());
         });
 
-        let app = server.build();
+        const app = server.build();
         app.listen(3000);
         console.log("Servidor iniciado na porta 3000")
     }
