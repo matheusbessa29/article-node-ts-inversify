@@ -1,0 +1,8 @@
+#!/bin/bash
+# Esse bash é um pequeno teste de Stress que comprova a gestão correta de conexões do TypeORM.
+CONTADOR=0
+while [  $CONTADOR -lt 5000 ]; do
+      echo "\n Chamada N. $CONTADOR";
+      curl http://localhost:3000/users
+      let CONTADOR=CONTADOR+1; 
+done
