@@ -9,3 +9,7 @@
 # 02-inversify-example
 02-inversify-express-example/dist
 02-inversify-express-example/node_modules
+
+# 03-typeorm-example
+03-typeorm-example/dist
+03-typeorm-example/node_modules

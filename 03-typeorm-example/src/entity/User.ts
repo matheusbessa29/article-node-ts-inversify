@@ -12,7 +12,11 @@ export class User {
     @Column()
     lastName: string;
 
+    @Column({ default: '' })
+    nickName: string;
+
     @Column()
     age: number;
+
 
 }
